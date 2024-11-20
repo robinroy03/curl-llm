@@ -1,0 +1,16 @@
+{
+  "name": "curl-llm",
+  "scripts": {
+    "dev": "wrangler dev",
+    "deploy": "wrangler deploy --minify"
+  },
+  "dependencies": {
+    "groq-sdk": "^0.8.0",
+    "hono": "^4.6.11"
+  },
+  "devDependencies": {
+    "@cloudflare/workers-types": "^4.20241022.0",
+    "@types/node": "^22.9.1",
+    "wrangler": "^3.83.0"
+  }
+}
